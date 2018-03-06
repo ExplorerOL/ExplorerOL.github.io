@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+font-family: "DIN_Next_CYR_Light";
+src: local("DIN_Next_CYR_Light") 
+url("font/DIN_Next_CYR_Light.otf") format('opentype')
+}
+
+@font-face {
+font-family: "Futura_LT_Light";
+src: local("Futura_LT_Light") 
+url('font/Futura_LT_Light.ttf') format('truetype')
+}
