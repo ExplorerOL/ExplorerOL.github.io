@@ -1,0 +1,45 @@
+/* CSS Document */
+@import url("./fonts.css");
+@import url("./colors.css");
+
+ul.ListMainMenu {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 0px; /* Значение полей */
+    align: center;
+   }
+ul.ListMainMenu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 20px; /* Поля вокруг текста */
+
+   }
+
+
+
+
+   .MainMenuItems, .MainMenuItems li {
+     margin: 0;
+     padding: 0;
+   }
+   .MainMenuItems {
+     max-width: 550px;
+     margin: 0 auto;
+     background: #41597D;
+     position: relative;
+     top: 15px;
+   }
+   .MainMenuItems li {
+     display: inline-block;
+     text-align: center;
+   }
+   .MainMenuItems a {
+     display: block;
+     padding: 3px 15px;
+     color: #fff;
+     text-decoration: none;
+   }
+   .MainMenuItems a:hover {
+     background: #6285BC; */
+     color: #FFFFFF;
+     /* color: #6285BC;  */
+   }

@@ -1,0 +1,32 @@
+@font-face {
+	font-family: din;
+	src: url(../font/DIN_Next_CYR_Light.otf);
+}
+
+
+@font-face {
+	font-family: futura;
+	src: url(../font/Futura_Orto_Lt.ttf);
+}
+
+
+.font_0 {font: normal normal bold 60px/1.4em 'open sans',sans-serif ;color: #FFFFFF;}
+.font_1 {font: normal normal normal 16px/1.4em din,sans-serif ;color:#605E5E;}
+.font_2 {font: normal normal normal 46px/1.4em futura-lt-w01-book,sans-serif ;color:#2F2E2E;}
+.font_3 {font: normal normal bold 60px/1.4em 'open sans',sans-serif ;color:#2F2E2E;}
+.font_4 {font: normal normal normal 36px/1.4em futura-lt-w01-book,sans-serif ;color:#2F2E2E;}
+.font_5 {font: normal normal normal 25px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#2F2E2E;}
+.font_6 {font: normal normal normal 21px/1.4em futura-lt-w01-book,sans-serif ;color:#2F2E2E;}
+.font_7 {font: normal normal normal 17px/1.4em futura-lt-w01-light,sans-serif ;color:#2F2E2E;}
+.font_8 {font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif ;color:#605E5E;}
+.font_9 {font: normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#605E5E;}
+.font_10 {font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#605E5E;}
+
+
+ .font_H1{
+	 font: normal normal bold 60px/1.4em 'open sans',sans-serif ;color: #FFFFFF;
+ }
+
+ .FontMainMenu {
+  font:normal normal normal 14px/1.4em futura,sans-serif; color: #FFFFFF; display: inline;
+ }
