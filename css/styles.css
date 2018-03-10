@@ -48,13 +48,21 @@
      color: #FFFFFF;
      /* color: #6285BC;  */
    }
-/*----------------------------------------*/
+/* Баннер ----------------------------------------*/
+
+    .style-banner{
+      position: relative;
+      top:-26px;
+      margin:0 40% 0 6%
+    }
+
+
 
 
 
    .img-logo {
      position: relative;
-     top: 60px;
+     top: 55px;
      left: 0px;
      width: 68px;
      height: 68px;
