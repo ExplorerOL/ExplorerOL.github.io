@@ -4,7 +4,7 @@
 }
 
 @font-face {
-	font-family: futura_en;
+	font-family: futura-en;
 	src: url(../font/futura.ttf);
 }
 
@@ -29,7 +29,7 @@
 
 
  .font-main-menu {
-  font:normal normal normal 14px/1.4em futura_en,sans-serif;
+  font:normal normal normal 14px/1.4em futura-en,sans-serif;
 	color: #FFFFFF;
 	display: inline;
  }
@@ -50,4 +50,11 @@
 	 top: 10px;
 	 left: 400px;
 	 white-space: nowrap;
+	 }
+
+	 .text-page1{
+		 font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+		 color:#CFDFF2;
+		 text-align: justify;
+
 	 }
