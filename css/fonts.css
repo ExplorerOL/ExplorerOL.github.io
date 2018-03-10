@@ -37,8 +37,8 @@
  h1 {
 	 font: normal normal  60px/1.4em open-sans-bold, sans-serif ;
 	 color: #FFFFFF;
-	 position: relative;
-	 top: -65px;
+	 position: absolute;
+	 top: 0px;
 	 left: 70px;
 
  }
@@ -46,8 +46,8 @@
  h2 {
 	 font: normal normal  32px/1.4em open-sans-bold, sans-serif ;
 	 color: #FFFFFF;
-	 position: relative;
-	 top: -140px;
+	 position: absolute;
+	 top: 60px;
 	 left: 400px;
 	 white-space: nowrap;
 	 }
