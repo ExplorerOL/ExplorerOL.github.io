@@ -5,24 +5,41 @@
   <title>EyesGuard</title>
   <meta charset="utf-8" />
   <link rel="shortcut icon" href="./img/eg_favicon.png" type="image/x-icon">
+    <link href="./css/styles.css" rel="stylesheet">
   <!-- <meta name ="viewport" contetnt="width=device-width, initial-scale=1"> -->
   <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-  <link href="./css/styles.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
+        e.preventDefault();
+        var t = 1500;
+        var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
+        $('html,body').stop().animate({ scrollTop: $(d).offset().top }, t);
+    });
+});
+
+</script>
+
 
  </head>
 
 <body class = "style-body">
+
+
+
 
 <!-- Шапка страницы -->
   <div class="style-header">
   <!-- Главное меню -->
     <div>
       <ul class="main-menu-items" >
-        <li><a href="#" class="font-main-menu">HOME</a></li>
-        <li><a href="#" class="font-main-menu" >ABOUT</a></li>
-        <li><a href="#" class="font-main-menu">RECOMMENDATIONS</a></li>
-        <li><a href="#" class="font-main-menu">DOWNLOAD</a></li>
-        <li><a href="#" class="font-main-menu">CONTACT</a></li>
+        <li><a href="#anchor-home-page" class="font-main-menu">HOME</a></li>
+        <li><a href="#anchor-about-page" class="font-main-menu">ABOUT</a></li>
+        <li><a href="#anchor-recom-page" class="font-main-menu">RECOMMENDATIONS</a></li>
+        <li><a href="" class="font-main-menu">DOWNLOAD</a></li>
+        <li><a href="" class="font-main-menu">CONTACT</a></li>
       </ul>
     </div>
   <!-- Флаг языка -->
@@ -51,15 +68,16 @@
 </div>
 
 <!-- Первая страница -->
-<div>
+<div id = "anchor-home-page">
   <table cellpadding="20" style="width: 86%; left: 7%; height=100%; align: center; position: relative; top: 160px">
     <tr>
       <td style="width: 50%; cellpadding: 20">
         <p class="text-page1">If you work a lot on a computer and want to keep your vision in order or to keep vision of your children and relatives, who are crazy of PC, this program will be very useful for you!</p>
-
+        <br>
         <section class="flat-button" style="text-align: center">
         <button>Download EyesGuard >></button>
         </section>
+        <br>
         <div style="text-align: center"><img class="img-man-and-pc" src="./img/man_and_pc.png" alt="Tired man in fron of PC">
         </div>
       </td>
@@ -67,6 +85,7 @@
 
         <div style="text-align: center"><img class="img-girl-and-pc" src="./img/girl_and_pc.png" alt="Tired girl in fron of PC">
         </div>
+        <br>
 
 
         <p class="text-page1">EyesGuard will remind you about necessity to have a break during a long work on computer. This program places an icon into the system tray and does not disturb your work. It allows to adjust the time between breaks (work time), breaks duration (break time) and has some more functions: sound effects, turning your monitor off during the break.Try to use this program and then EyesGuard will guard your vision!
@@ -74,44 +93,80 @@
      </td>
     </tr>
   </table>
+  <br> <br> <br>
 </div>
 
-<br>
-<br>
-<br>
-<!-- Вторая страница -->
-<div>
-  <table cellpadding="20" style="width: 86%; left: 7%; height=100%; align: center; position: relative; top: 160px">
-    <tr>
-      <td style="width: 50%; cellpadding: 20">
-        <p class="text-page1">If you work a lot on a computer and want to keep your vision in order or to keep vision of your children and relatives, who are crazy of PC, this program will be very useful for you!</p>
 
-        <section class="flat-button" style="text-align: center">
-        <button>Download EyesGuard >></button>
-        </section>
-        <div style="text-align: center"><img class="img-man-and-pc" src="./img/man_and_pc.png" alt="Tired man in fron of PC">
-        </div>
+
+<!-- Вторая страница О программе -------------------------------------------->
+<div id = "anchor-about-page"  style = "position: relative; top: 100px; id = "anchor-about-page"">
+</div>
+<div  style="background: #CFDFF2; position: relative; top: 180px; height: 700px " >
+  <br>
+  <p class="header1-page2">About EyesGuard</p>
+  <p class="header2-page2">EyesGuard helps you to keep vision in order</p>
+  <br><br><br><br>
+
+
+  <table cellpadding="20" style="width: 86%; left: 7%; height=100%; align: center; position: relative; top: -130px ">
+    <tr>
+      <td style="width: 50%; cellpadding: 20;">
+        <p class="text-page2">This program helps you to organize your work on a computer properly. It reminds about necessity to have a break during long work and informs about the start and the end of the break.
+        After starting EyesGuard places an icon with an eye into the system tray near system clock. If the eye is blue the program works, if it is orange the program does not work (and so your eyes can become orange too! ;) ).
+       </p>
+       <p class="text-page2">  Main menu of EyesGuard opens by clicking right button of mouse on the EG`s icon in system tray. All settings are made at the window "Settings", which can be opened this way: Main menu -> Settings or by clicking left button on the icon.
+       </p>
+       <p class="text-page2">EyesGuard does not demand an installation and does not insert any records into the register of your operational system.
+       </p>
+        <p class="text-page2">Read more about EyesGuard
+        </p>
+
+
       </td>
       <td  style="width: 50%; cellpadding: 20">
 
-        <div style="text-align: center"><img class="img-girl-and-pc" src="./img/girl_and_pc.png" alt="Tired girl in fron of PC">
+        <div style="text-align: center"><img class="img-about" src="./img/about1.png" alt="Tired girl in fron of PC">
         </div>
-
-
-        <p class="text-page1">EyesGuard will remind you about necessity to have a break during a long work on computer. This program places an icon into the system tray and does not disturb your work. It allows to adjust the time between breaks (work time), breaks duration (break time) and has some more functions: sound effects, turning your monitor off during the break.Try to use this program and then EyesGuard will guard your vision!
-        </p>
      </td>
     </tr>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
   </table>
+  <br>    <br>     <br>    <br>
 </div>
 
 
+<!--Третья страница Рекоммендации  -------------------------------------------->
+<div id = "anchor-recom-page" style="background: #41597D; position: relative; top: 140px; height: 600px " >
+  <br>  <br>
+  <p class="header1-page3">Oculist's recommendations</p>
+  <br>  <br>   <br> <br><br> <br>
 
+
+
+  <table cellpadding="20" style="width: 86%; left: 7%; height=100%; align: center; position: relative; top: -130px ">
+    <tr>
+      <td style="width: 50%; cellpadding: 20;">
+        <div style="text-align: center"><img class="img-recom" src="./img/healthy_eyes.png" alt="Healthy eyes">
+        </div>
+
+
+
+      </td>
+      <td  style="width: 50%; cellpadding: 20">
+
+        <p class="text-page3">The time of continuous work on a computer should not exceed 45 minutes. Optimal working time is 30 minutes or less. For children that time should not exceed 15 minutes. Break duration should be from 5 to 15 minutes, depending on the working time. However you can change this settings as you want.
+        </p>
+        <p class="text-page3"> During the break it is recommended to do some exercises for eye's relaxation.
+        </p>
+        <p class="text-page3"> And the main thing: never forget about your health!!!
+        </p>
+
+
+     </td>
+    </tr>
+    <br>    <br>
+  </table>
+</div>
 
 
 

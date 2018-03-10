@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 155px;
+  height: 140px;
   position: fixed;
   z-index: 1;
    max-width: 1500px;
@@ -51,7 +51,7 @@
     .style-banner{
       background: #000000;
       position: relative;
-      top: 20px;
+      top: 0px;
       width:82%;
 
       left: 12%;
@@ -80,7 +80,7 @@
    .class-white-bar {
      background-color: #FFFFFF;
      position: relative;
-     top: 100px;
+     top: 85px;
      left: 0px;
      width: 100%;
      height: 5px;
