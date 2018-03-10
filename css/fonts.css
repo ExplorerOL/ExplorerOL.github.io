@@ -38,7 +38,7 @@
 	 font: normal normal  60px/1.4em open-sans-bold, sans-serif ;
 	 color: #FFFFFF;
 	 position: absolute;
-	 top: 0px;
+	 top: -50px;
 	 left: 70px;
 
  }
@@ -47,7 +47,7 @@
 	 font: normal normal  32px/1.4em open-sans-bold, sans-serif ;
 	 color: #FFFFFF;
 	 position: absolute;
-	 top: 60px;
+	 top: 10px;
 	 left: 400px;
 	 white-space: nowrap;
 	 }
