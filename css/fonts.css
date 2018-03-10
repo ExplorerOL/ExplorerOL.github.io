@@ -37,9 +37,10 @@
  h1 {
 	 font: normal normal  60px/1.4em open-sans-bold, sans-serif ;
 	 color: #FFFFFF;
-	 position: absolute;
+	 position: relative;
 	 top: 12px;
-	 left: 182px;
+	 left: 52px;
+
  }
 
  h2 {
@@ -48,4 +49,5 @@
 	 position: absolute;
 	 top: 71px;
 	 left: 518px;
- }
+	 white-space: nowrap;
+	 }
