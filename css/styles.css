@@ -1,57 +1,17 @@
 /* CSS Document */
 @import url("./fonts.css");
 @import url("./colors.css");
-@import url("./button.css");
+
 @import url("./header.css");
+@import url("./page1.css");
+@import url("./page2.css");
+@import url("./page3.css");
+@import url("./page4.css");
+@import url("./page5.css");
 
 .style-body{
   background-color: #41597D;
   margin: 0;
   padding: 0;
   max-width: 1500px;
-}
-
-.img-man-and-pc{
-    position:relative;
-    top: 50px;
-    left: 0px;
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
-    -webkit-filter: opacity(80%);
-    box-shadow: 0.8em 0.8em 10px #0F293C;
-}
-
-.img-girl-and-pc{
-    position:relative;
-    top: 0px;
-
-    width: 400px;
-    height: 250px;
-    border-radius: 20px;
-    -webkit-filter: opacity(80%);
-    box-shadow: 0.8em 0.8em 10px #0F293C;
-}
-
-.img-about{
-    position:relative;
-    top: 0px;
-
-    width: 300px;
-    height: 400px;
-    border-radius: 20px;
-    -webkit-filter: opacity(80%);
-    box-shadow: 0.8em 0.8em 10px #0F293C;
-}
-
-
-.img-recom{
-    position:relative;
-    top: 0px;
-
-    width: 450px;
-    height: 300px;
-    border-radius: 20px;
-    -webkit-filter: opacity(100%);
-    box-shadow: 0.8em 0.8em 10px #0F293C;
 }

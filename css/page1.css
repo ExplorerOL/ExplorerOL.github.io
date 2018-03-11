@@ -1,0 +1,45 @@
+/* CSS для страницы 1 */
+@import url("./button.css");
+
+.page1-text{
+  font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+
+  color: #FFFFFF;
+  text-align: justify;
+
+
+}
+
+
+.img-man-and-pc{
+    position:relative;
+    top: 50px;
+    left: 0px;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-filter: opacity(80%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+.img-girl-and-pc{
+    position:relative;
+    top: 0px;
+
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    -webkit-filter: opacity(80%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+.img-about{
+    position:relative;
+    top: 0px;
+
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    -webkit-filter: opacity(80%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}

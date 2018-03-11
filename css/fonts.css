@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
 	font-family: din;
 	src: url(../font/DIN_Next_CYR_Light.otf);
-}
+} */
 
 @font-face {
 	font-family: futura-en;
@@ -25,77 +25,3 @@
 .font_8 {font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif ;color:#605E5E;}
 .font_9 {font: normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#605E5E;}
 .font_10 {font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#605E5E;}
-
-
-
- .font-main-menu {
-  font:normal normal normal 14px/1.4em futura-en,sans-serif;
-	color: #FFFFFF;
-	display: inline;
- }
-
- h1 {
-	 font: normal normal  60px/1.4em open-sans-bold, sans-serif ;
-	 color: #FFFFFF;
-	 position: absolute;
-	 top: -50px;
-	 left: 70px;
-
- }
-
- h2 {
-	 font: normal normal  32px/1.4em open-sans-bold, sans-serif ;
-	 color: #FFFFFF;
-	 position: absolute;
-	 top: 10px;
-	 left: 400px;
-	 white-space: nowrap;
-	 }
-
-	 .text-page1{
-		 font: normal normal normal 20px/1.4em futura-en, sans-serif ;
-		 color:#CFDFF2;
-		 text-align: justify;
-
-	 }
-
-	 .text-page2{
-		 font: normal normal normal 20px/1.4em futura-en, sans-serif ;
-		 color:#000000;
-		 text-align: justify;
-
-	 }
-
-	 .header1-page2{
-		 font: normal normal bold 40px/1.4em futura-en,sans-serif ;color:#2F2E2E;
-		 color:#000000;
-		 text-align: center;
-		 position: relative;
-		 top: 20px;
-
-	 }
-
-.header2-page2{
-	font: normal normal normal 30px/1.4em din, sans-serif ;color:#2F2E2E;
-
-	text-align: center;
-	position: relative;
-	top: -10px;
-
-}
-
-.header1-page3{
-	font: normal normal bold 45px/1.4em futura-en,sans-serif ;color:#2F2E2E;
-	color:#FFFFFF;
-	text-align: center;
-	position: relative;
-	top: 20px;
-
-}
-
-.text-page3{
-	font: normal normal normal 20px/1.4em futura-en, sans-serif ;
-	color:#FFFFFF;
-	text-align: justify;
-
-}

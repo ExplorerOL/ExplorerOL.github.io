@@ -1,0 +1,29 @@
+/* CSS для страницы 3 */
+
+.page3-header1{
+font: normal normal bold 45px/1.4em futura-en,sans-serif ;color:#2F2E2E;
+color:#FFFFFF;
+text-align: center;
+position: relative;
+top: 20px;
+
+}
+
+.page3-text{
+font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+color:#FFFFFF;
+text-align: justify;
+
+
+}
+
+.img-healthy-eyes{
+    position:relative;
+    top: 0px;
+
+    width: 80%;
+    height: 30%;
+    border-radius: 20px;
+    -webkit-filter: opacity(100%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}

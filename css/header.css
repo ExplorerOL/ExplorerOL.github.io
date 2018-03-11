@@ -9,6 +9,7 @@
   position: fixed;
   z-index: 1;
    max-width: 1500px;
+   min-width: 600px;
 
 }
 
@@ -58,6 +59,50 @@
       /* align-content: center; */
       /* margin:0 0% 0 0% */
     }
+
+    .font-main-menu {
+     font:normal normal normal 14px/1.4em futura-en,sans-serif;
+     color: #FFFFFF;
+     display: inline;
+    }
+
+    h1 {
+      font: normal normal  60px/1.4em open-sans-bold, sans-serif ;
+      color: #FFFFFF;
+      position: absolute;
+      top: -50px;
+      left: 70px;
+
+    }
+
+    h2 {
+      font: normal normal  32px/1.4em open-sans-bold, sans-serif ;
+      color: #FFFFFF;
+      position: absolute;
+      top: 10px;
+      left: 400px;
+      white-space: nowrap;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .img-lang {
       position: relative;
