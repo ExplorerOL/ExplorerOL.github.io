@@ -23,6 +23,7 @@
    }
    .main-menu-items {
      max-width: 650px;
+     min-width: 650px;
 
      margin: 0 auto;
      background: #41597D;
