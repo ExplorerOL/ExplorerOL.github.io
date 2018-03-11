@@ -4,7 +4,7 @@
 
   <title>EyesGuard</title>
   <meta charset="utf-8" />
-  <link rel="shortcut icon" href="./img/eg_favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/eg_favicon.jpg" type="image/x-icon">
     <link href="./css/styles.css" rel="stylesheet">
   <!-- <meta name ="viewport" contetnt="width=device-width, initial-scale=1"> -->
   <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
@@ -14,7 +14,7 @@
 $(document).ready(function(){
     $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
         e.preventDefault();
-        var t = 1500;
+        var t = 1000;
         var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
         $('html,body').stop().animate({ scrollTop: $(d).offset().top }, t);
     });
@@ -38,6 +38,7 @@ $(document).ready(function(){
     <div>
       <ul class="main-menu-items" >
         <li><a href="#anchor-home-page" class="font-main-menu">HOME</a></li>
+        <li><a href="#anchor-idea-page" class="font-main-menu">THE IDEA</a></li>
         <li><a href="#anchor-about-page" class="font-main-menu">ABOUT</a></li>
         <li><a href="#anchor-recom-page" class="font-main-menu">RECOMMENDATIONS</a></li>
         <li><a href="#anchor-download-page" class="font-main-menu">DOWNLOAD</a></li>
@@ -69,11 +70,11 @@ $(document).ready(function(){
   </div>
 </div>
 
-<!-- Первая страница -->
+<!-- страница HOME -->
 <div id = "anchor-home-page" style="word-wrap:break-word">
   <table cellpadding="20" style="width: 86%; left: 7%; height=100%; align: center; position: relative; top: 160px">
     <tr style=" ">
-      <td  class="page1-text" style="width: 50%; cellpadding: 20;">
+      <td  class="home-text" style="width: 50%; cellpadding: 20;">
         <p>If you work a lot on a computer and want to keep your vision in order or to keep vision of your children and relatives, who are crazy of PC, this program will be very useful for you!</p>
         <br>
         <section class="flat-button" style="text-align: center">
@@ -82,12 +83,12 @@ $(document).ready(function(){
        </button>
         </section>
         <br>
-        <div style="text-align: center"><img class="img-man-and-pc" src="./img/man_and_pc.png" alt="Tired man in fron of PC">
+        <div style="text-align: center"><img class="img-man-and-pc" src="./img/man_and_pc.jpg" alt="Tired man in fron of PC">
         </div>
       </td>
-      <td  class="page1-text"  style="width: 50%; cellpadding: 20">
+      <td  class="home-text"  style="width: 50%; cellpadding: 20">
 
-        <div style="text-align: center"><img class="img-girl-and-pc" src="./img/girl_and_pc.png" alt="Tired girl in fron of PC">
+        <div style="text-align: center"><img class="img-girl-and-pc" src="./img/girl_and_pc.jpg" alt="Tired girl in fron of PC">
         </div>
         <br>
 
@@ -102,35 +103,91 @@ $(document).ready(function(){
 
 
 
-<!-- Вторая страница О программе -------------------------------------------->
-<div id = "anchor-about-page"  style = "position: relative; top: 100px; id = "anchor-about-page"">
+<!--страница THE IDEA  -------------------------------------------->
+<div id = "anchor-idea-page"  style = "position: relative; top: 80px; ">
 </div>
-<div  style="background: #CFDFF2; position: relative; top: 180px; height: 750px;" >
-  <br>
-  <p class="page2-header1">About EyesGuard</p>
-  <p class="page2-header2">EyesGuard helps you to keep vision in order</p>
-  <br><br><br><br>
+<div style="background: #C4D2E9; position: relative; top: 180px; height: 600px;  " >
+  <br>  <br>
+  <p class="idea-header">The idea</p>
+  <br>  <br>   <br>
 
 
-  <table cellpadding="20" style="width: 86%; left: 7%; height=100%; align: center; position: relative; top: -100px ">
+
+  <table cellpadding="20" style="width: 86%; left: 5%; height=100%; align: center; position: relative; top: -130px; ">
     <tr>
-      <td class="page2-text" style="width: 50%; cellpadding: 20;">
-        <p>This program helps you to organize your work on a computer properly. It reminds about necessity to have a break during long work and informs about the start and the end of the break.
-        After starting EyesGuard places an icon with an eye into the system tray near system clock. If the eye is blue the program works, if it is orange the program does not work (and so your eyes can become orange too! ;) ).
-       </p>
-       <p>  Main menu of EyesGuard opens by clicking right button of mouse on the EG`s icon in system tray. All settings are made at the window "Settings", which can be opened this way: Main menu -> Settings or by clicking left button on the icon.
-       </p>
-       <p>EyesGuard does not demand an installation and does not insert any records into the register of your operational system.
-       </p>
-        <p>Read more about EyesGuard
+      <td style="width: 50%; cellpadding: 10;">
+        <p class="idea-text">The reason for writing the program was the fact that I had to spend a lot of time in front the monitor (CRT, not LCD!) when I was a student. I had to do many laboratory works, essays, course projects, etc. However, understanding the need for this, I remembered that it was harmful to my health: my eyes grew tired and red, I used to work on the PC for several hours almost without any breaks . But, nevertheless, it was extremely difficult to turn away from the screen. The result is red eyes, blurred vision, bad mood and vision degradation. But it was very useful to take a break. Thinking about the problem, despite the screen, you often helps to find right solutions and sometimes much more faster.
+        <br><br>
+        So this way appeared an idea to write a program that would remind meabout  the need to take a break. (The search for such a program in the Internet did not bring the expected results: either the program turned out to be paid, or it did not suit me in the functionality or ist interface).
         </p>
 
 
+
+
       </td>
+      <td  class="recom-text" style="width: 50%; cellpadding: 20">
+
+
+        <div style="text-align: center"><img class="student-and-pc" src="./img/student_and_pc.jpg" alt="Healthy eyes">
+        </div>
+
+     </td>
+    </tr>
+    <br>    <br>
+  </table>
+</div>
+
+
+
+
+
+<!-- Вторая страница О программе -------------------------------------------->
+<div id = "anchor-about-page"  style = "position: relative; top: 100px; id = "anchor-about-page"">
+</div>
+<div  style="background: #41597D; position: relative; top: 180px; height: 750px;" >
+  <br>
+  <p class="about-header1">About EyesGuard</p>
+  <p class="about-header2">EyesGuard helps you to keep vision in order</p>
+  <br><br><br><br>
+
+
+  <table cellpadding="20" style="width: 86%; left: 0%; height=100%; align: center; position: relative; top: -100px ">
+    <tr>
+
       <td  style="width: 50%; cellpadding: 20">
 
-        <div style="text-align: center"><img class="img-about" src="./img/about1.png" alt="Tired girl in fron of PC">
+        <div >
+
+          <a href="./img/screenshots/screenshot_3.png" target="_blank">
+            <img class="img-about" src="./img/screenshots/screenshot_3.png" alt="Screenshot1"></a>
+
+          <a href="./img/screenshots/screenshot_1.png" target="_blank">
+            <img class="img-about" style="top: -50px; left: 50px; height:100px " src="./img/screenshots/screenshot_1.png" alt="Screenshot1"></a>
+
+          <a href="./img/screenshots/screenshot_2.png" target="_blank">
+            <img class="img-about" style="top: 50px; left: -300px; height:100px " src="./img/screenshots/screenshot_2.png" alt="Screenshot1"></a>
+
+          <a href="./img/screenshots/screenshot_4.png" target="_blank">
+            <img class="img-about" style="top: 0px; left: 200px; height:120px; width:200px " src="./img/screenshots/screenshot_4.png" alt="Screenshot1"></a>
+
+          <a href="./img/screenshots/screenshot_5.png" target="_blank">
+            <img class="img-about" style="top: 120px; left: -140px; height:100px; width:200px " src="./img/screenshots/screenshot_5.png" alt="Screenshot1"></a>
+
+
         </div>
+     </td>
+     <td class="about-text" style="width: 50%; cellpadding: 20;">
+       <p>This program helps you to organize your work on a computer properly. It reminds about necessity to have a break during long work and informs about the start and the end of the break.
+       After starting EyesGuard places an icon with an eye into the system tray near system clock. If the eye is blue the program works, if it is orange the program does not work (and so your eyes can become orange too! ;) ).
+      </p>
+      <p>  Main menu of EyesGuard opens by clicking right button of mouse on the EG`s icon in system tray. All settings are made at the window "Settings", which can be opened this way: Main menu -> Settings or by clicking left button on the icon.
+      </p>
+      <p>EyesGuard does not demand an installation and does not insert any records into the register of your operational system.
+      </p>
+       <p>Read more about EyesGuard
+       </p>
+
+
      </td>
     </tr>
 
@@ -139,26 +196,20 @@ $(document).ready(function(){
 </div>
 
 
-<!--Третья страница Рекоммендации  -------------------------------------------->
+<!--страница Рекоммендации  -------------------------------------------->
 <div id = "anchor-recom-page"  style = "position: relative; top: 80px; ">
 </div>
-<div style="background: #41597D; position: relative; top: 140px; height: 600px;  " >
+<div style="background: #A0B4D2; position: relative; top: 140px; height: 650px;  " >
   <br>  <br>
-  <p class="page3-header1">Oculist's recommendations</p>
+  <p class="recom-header1">Oculist's recommendations</p>
   <br>  <br>   <br> <br><br> <br>
 
 
 
-  <table cellpadding="20" style="width: 86%; left: 5%; height=100%; align: center; position: relative; top: -130px; ">
+  <table cellpadding="20" style="width: 86%; left: 6%; height=100%; align: center; position: relative; top: -130px; ">
     <tr>
-      <td style="width: 50%; cellpadding: 20;">
-        <div style="text-align: center"><img class="img-healthy-eyes" src="./img/healthy_eyes.png" alt="Healthy eyes">
-        </div>
 
-
-
-      </td>
-      <td  class="page3-text" style="width: 50%; cellpadding: 20">
+      <td  class="recom-text" style="width: 50%; cellpadding: 20">
 
         <p>The time of continuous work on a computer should not exceed 45 minutes. Optimal working time is 30 minutes or less. For children that time should not exceed 15 minutes. Break duration should be from 5 to 15 minutes, depending on the working time. However you can change this settings as you want.
         </p>
@@ -166,6 +217,15 @@ $(document).ready(function(){
         </p>
         <p > And the main thing: never forget about your health!!!
         </p>
+
+
+     </td>
+
+
+     <td style="width: 50%; cellpadding: 20;">
+       <div style="text-align: center"><img class="img-healthy-eyes" src="./img/healthy_eyes.jpg" alt="Healthy eyes">
+       </div>
+
 
 
      </td>
@@ -181,9 +241,9 @@ $(document).ready(function(){
 </div>
 <div  style="background: #F2F2F2; position: relative; top: 140px; height: 600px " >
   <br>  <br>
-  <p class="page4-header1">Download EyesGuard</p>
+  <p class="download-header1">Download EyesGuard</p>
   <br>
-  <div class="page4-text" style="position: relative; left: 8%; width:70%; height:100%; word-wrap: break-word">
+  <div class="download-text" style="position: relative; left: 8%; width:70%; height:100%; word-wrap: break-word">
   <p>EyesGuard is distributed under the GNU General Public License. The official publication of the license GNU GPL you can find here:
     <a style="color: #000000" href="http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a>
   </p>
@@ -208,9 +268,9 @@ $(document).ready(function(){
 <!--Пятая страница Контакты  -------------------------------------------->
 <div id = "anchor-contacts-page" style="position: relative; top: 80px; height: 300px " >
   <br>  <br>
-  <p class="page5-header1">Contacts</p>
+  <p class="contacts-header1">Contacts</p>
 
-<div class="page5-text" style="position: relative; left: 25%; width:70%">
+<div class="contacts-text" style="position: relative; left: 25%; width:70%">
 
     <p>Your opinions, wishes and observations you may send by e-mail:
        <a style="color: #FFFFFF" href="mailto:eyesguard@yandex.ru">eyesguard@yandex.ru</a>

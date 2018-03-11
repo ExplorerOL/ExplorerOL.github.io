@@ -1,0 +1,57 @@
+/* Стили рисунков для страницы HOME */
+.img-man-and-pc{
+    position:relative;
+    top: 50px;
+    left: 0px;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-filter: opacity(80%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+.img-girl-and-pc{
+    position:relative;
+    top: 0px;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-filter: opacity(80%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+/* Стили рисунков для страницы THE IDEA */
+.student-and-pc{
+    position:relative;
+    top: 0px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    -webkit-filter: opacity(80%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+/* Стили рисунков для страницы ABOUT */
+.img-about{
+    position:relative;
+    top: -100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    -webkit-filter: opacity(100%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+/* Стили рисунков для страницы RECOMMENDATIONS */
+.img-healthy-eyes{
+    position:relative;
+    top: 0px;
+
+    width: 80%;
+    height: 30%;
+    border-radius: 20px;
+    -webkit-filter: opacity(100%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+/* Стили рисунков для страницы DOWNLOAD */
+/* Стили рисунков для страницы CONTACTS */

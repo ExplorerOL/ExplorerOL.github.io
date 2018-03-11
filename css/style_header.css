@@ -1,0 +1,133 @@
+/* Стили для заголовка */
+
+.style-header{
+  background-color: #41597D;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  position: fixed;
+  z-index: 1;
+   max-width: 1500px;
+   min-width: 600px;
+
+}
+
+
+/*Стиль для меню-------------------------------------*/
+
+   .main-menu-items, .main-menu-items li {
+     margin: 0;
+     padding: 0;
+
+   }
+   .main-menu-items {
+     max-width: 650px;
+     margin: 0 auto;
+     background: #41597D;
+     position: relative;
+     top: 15px;
+
+   }
+   .main-menu-items li {
+     display: inline-block;
+     text-align: center;
+   }
+   .main-menu-items a {
+     display: block;
+     padding: 4px 15px;
+     color: #FFFFFF;
+     text-decoration: none;
+     -moz-transition: background-color 0.5s 0.1s ease;
+     -o-transition: background-color 0.5s 0.1s ease;
+     -webkit-transition: background-color 0.5s 0.1s ease;
+   }
+   .main-menu-items a:hover {
+     background: #6285BC; */
+     color: #FFFFFF;
+     /* color: #6285BC;  */
+   }
+/* Баннер ----------------------------------------*/
+
+    .style-banner{
+      background: #000000;
+      position: relative;
+      top: 0px;
+      width:82%;
+
+      left: 12%;
+      /* align-content: center; */
+      /* margin:0 0% 0 0% */
+    }
+
+    .font-main-menu {
+     font:normal normal normal 14px/1.4em futura-en,sans-serif;
+     color: #FFFFFF;
+     display: inline;
+    }
+
+    h1 {
+      font: normal normal  60px/1.4em open-sans-bold, sans-serif ;
+      color: #FFFFFF;
+      position: absolute;
+      top: -50px;
+      left: 70px;
+
+    }
+
+    h2 {
+      font: normal normal  32px/1.4em open-sans-bold, sans-serif ;
+      color: #FFFFFF;
+      position: absolute;
+      top: 10px;
+      left: 400px;
+      white-space: nowrap;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .img-lang {
+      position: relative;
+      top: 0px;
+      left: 90%;
+      width: 30px;
+      height: 20px;
+    }
+
+
+
+   .img-logo {
+     position:absolute;
+     top: 0px;
+     left: 0px;
+     width: 68px;
+     height: 68px;
+   }
+
+   .class-white-bar {
+     background-color: #FFFFFF;
+     position: relative;
+     top: 85px;
+     left: 0px;
+     width: 100%;
+     height: 5px;
+       max-width: 1500px;
+   }
