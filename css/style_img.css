@@ -23,7 +23,7 @@
 /* Стили рисунков для страницы THE IDEA */
 .student-and-pc{
     position:relative;
-    top: 0px;
+    top: -50px;
     width: 300px;
     height: 200px;
     border-radius: 20px;
@@ -33,8 +33,8 @@
 
 /* Стили рисунков для страницы ABOUT */
 .img-about{
-    position:relative;
-    top: -100px;
+    position:absolute;
+    top: -20px;
     width: 150px;
     height: 150px;
     border-radius: 10px;

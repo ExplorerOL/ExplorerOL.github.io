@@ -23,6 +23,7 @@
    }
    .main-menu-items {
      max-width: 650px;
+
      margin: 0 auto;
      background: #41597D;
      position: relative;
@@ -85,28 +86,9 @@
       }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .img-lang {
       position: relative;
-      top: 0px;
+      top: 15px;
       left: 90%;
       width: 30px;
       height: 20px;
