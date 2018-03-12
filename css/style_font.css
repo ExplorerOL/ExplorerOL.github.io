@@ -1,8 +1,4 @@
 /* Подключение внешних шрифтов */
-@font-face {
-	font-family: futura-en;
-	src: url(../font/futura.ttf);
-}
 
 @font-face {
 	font-family: open-sans-bold;
@@ -11,30 +7,28 @@
 
 /* Стили текста для страницы HOME */
 .home-text{
-  font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+  font: normal normal normal 16px/1.4em futura, sans-serif ;
   color: #FFFFFF;
   text-align: justify;
 }
 
 /* Стили текста для страницы THE IDEA*/
 .idea-header{
-font: normal normal bold 40px/1.4em futura-en, sans-serif ;color:#2F2E2E;
+font: normal normal bold 40px/1.4em futura, sans-serif ;color:#2F2E2E;
 text-align: center;
 position: relative;
 top: -10px;
 }
 
 .idea-text{
-  font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+  font: normal normal normal 16px/1.4em futura, sans-serif ;
   color:#000000;
   text-align: justify;
 }
 
-
-
 /* Стили текста для страницы ABOUT */
 .about-header1{
-  font: normal normal bold 40px/1.4em futura-en,sans-serif ;color:#2F2E2E;
+  font: normal normal bold 40px/1.4em futura,sans-serif ;color:#2F2E2E;
   color:#CFDFF2;
   text-align: center;
   position: relative;
@@ -42,21 +36,21 @@ top: -10px;
 }
 
 .about-header2{
-font: normal normal normal 30px/1.4em futura-en, sans-serif ;color:#CFDFF2;
+font: normal normal normal 30px/1.4em futura, sans-serif ;color:#CFDFF2;
 text-align: center;
 position: relative;
 top: -10px;
 }
 
 .about-text{
-  font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+  font: normal normal normal 16px/1.4em futura, sans-serif ;
   color:#CFDFF2;
   text-align: justify;
 }
 
 /* Стили текста для страницы RECOMMENDATIONS */
 .recom-header1{
-font: normal normal bold 45px/1.4em futura-en,sans-serif ;color:#2F2E2E;
+font: normal normal bold 45px/1.4em futura,sans-serif ;color:#2F2E2E;
 color:#2F2E2E;
 text-align: center;
 position: relative;
@@ -64,14 +58,14 @@ top: 20px;
 }
 
 .recom-text{
-font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+font: normal normal normal 16px/1.4em futura, sans-serif ;
 color:#000000;
 text-align: justify;
 }
 
 /* Стили текста для страницы DOWNLOAD */
 .download-header1{
-font: normal normal bold 40px/1.4em futura-en,sans-serif ;color:#2F2E2E;
+font: normal normal bold 40px/1.4em futura,sans-serif ;color:#2F2E2E;
 color:#000000;
 text-align: center;
 position: relative;
@@ -79,14 +73,14 @@ top: 20px;
 }
 
 .download-text{
-font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+font: normal normal normal 16px/1.4em futura, sans-serif ;
 color:#000000;
 text-align: justify;
 }
 
 /* Стили текста для страницы CONTACTS */
 .contacts-header1{
-font: normal normal bold 40px/1.4em futura-en,sans-serif ;color:#2F2E2E;
+font: normal normal bold 40px/1.4em futura,sans-serif ;color:#2F2E2E;
 color:#FFFFFF;
 text-align: center;
 position: relative;
@@ -94,15 +88,14 @@ top: 20px;
 }
 
 .contacts-text{
-font: normal normal normal 16px/1.4em futura-en, sans-serif ;
+font: normal normal normal 16px/1.4em futura, sans-serif ;
 color:#FFFFFF;
 text-align: justify;
 }
 
-
 /* Стили текста подвала */
 .footer-text{
-font: normal normal normal 14px/1.4em futura-en, sans-serif ;
+font: normal normal normal 14px/1.4em futura, sans-serif ;
 color:#A0A09F;
 text-align: center;
 }

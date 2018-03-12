@@ -5,7 +5,10 @@
   <title>EyesGuard</title>
   <meta charset="utf-8" />
   <link rel="shortcut icon" href="./img/eg_favicon.jpg" type="image/x-icon">
-    <link href="./css/styles.css" rel="stylesheet">
+
+  <link href="./css/style_ext_font_ru.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+
   <!-- <meta name ="viewport" contetnt="width=device-width, initial-scale=1"> -->
   <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,12 +26,13 @@ $(document).ready(function(){
 </script>
 
 
-<!-- <meta name="CatCut161524c8db" content="33E61512DCE20F11A25308B134673E04Y2009" /> -->
+
+
 
  </head>
 
 <body class = "style-body">
-
+  <link href="./css/style_ext_font_ru.css" rel="stylesheet">
 
 
 
@@ -37,17 +41,17 @@ $(document).ready(function(){
   <!-- Главное меню -->
     <div style="min-width:650px;">
       <ul class="main-menu-items" >
-        <li><a href="#anchor-home-page" class="font-main-menu">HOME</a></li>
-        <li><a href="#anchor-idea-page" class="font-main-menu">THE IDEA</a></li>
-        <li><a href="#anchor-about-page" class="font-main-menu">ABOUT</a></li>
-        <li><a href="#anchor-recom-page" class="font-main-menu">RECOMMENDATIONS</a></li>
-        <li><a href="#anchor-download-page" class="font-main-menu">DOWNLOAD</a></li>
-        <li><a href="#anchor-contacts-page" class="font-main-menu">CONTACTS</a></li>
+        <li><a href="#anchor-home-page" class="font-main-menu">ГЛАВНАЯ</a></li>
+        <li><a href="#anchor-idea-page" class="font-main-menu">ИДЕЯ</a></li>
+        <li><a href="#anchor-about-page" class="font-main-menu">О ПРОГРАММЕ</a></li>
+        <li><a href="#anchor-recom-page" class="font-main-menu">РЕКОМЕНДАЦИИ</a></li>
+        <li><a href="#anchor-download-page" class="font-main-menu">СКАЧАТЬ</a></li>
+        <li><a href="#anchor-contacts-page" class="font-main-menu">КОНТАКТЫ</a></li>
       </ul>
     </div>
   <!-- Флаг языка -->
     <div >
-      <img src="./img/rus.gif" alt="Russian" class="img-lang">
+      <a href="./index_en.html"><img src="./img/uk.gif" alt="English" class="img-lang"></a>
     </div>
 
   <!-- Центральная надпись -->
@@ -59,9 +63,9 @@ $(document).ready(function(){
     <div>
       <h1>EyesGuard</h1>
       <h2>
-        <span style="color: #6285BC;">KEEPS</span>
-        <span style="color: #C4D2E9;">YOUR VISION</span>
-        <span style="color: #FFFFFF;">IN ORDER</span>
+        <span style="color: #A0B4D2;">ЗАБОТИТСЯ</span>
+        <span style="color: #C4D2E9;">О ВАШЕМ</span>
+        <span style="color: #FFFFFF;">ЗРЕНИИ</span>
       </h2>
     </div>
   </div>
@@ -72,17 +76,17 @@ $(document).ready(function(){
 
 <!-- страница HOME -->
 <div id = "anchor-home-page" style="word-wrap:break-word">
-  <table cellpadding="20" style="width: 86%; left: 7%; height=100%; align: center; position: relative; top: 160px">
-    <tr style=" ">
-      <td  class="home-text" style="width: 50%; cellpadding: 20;">
-        <p>If you work a lot on a computer and want to keep your vision in order or to keep vision of your children and relatives, who are crazy of PC, this program will be very useful for you!</p>
-        <br>
+  <table cellpadding="20" style="width: 86%; left: 7%; height=100%; align: center; position: relative; top: 80px">
+    <tr >
+      <td  class="home-text" style="width: 50%;">
+        <p>Если Вы много работаете на компьютере и хотите сохранить свое зрение, если Ваших детей не оторвать от монитора, но Вы не хотите, чтобы они надели очки, если Вы понимаете, что просиживать целый день за компьютером - плохо для здоровья, но сами сделать перерыв забываете или лень - эта программа поможет Вам!!! </p>
+
         <section class="flat-button" style="text-align: center">
         <button onclick="location.href='https://github.com/ExplorerOL/EyesGuard/releases/download/v1.20/EyesGuard.exe'">
-          Download EyesGuard >>
+          Скачать EyesGuard >>
        </button>
         </section>
-        <br>
+
         <div style="text-align: center"><img class="img-man-and-pc" src="./img/man_and_pc.jpg" alt="Tired man in fron of PC">
         </div>
       </td>
@@ -90,10 +94,14 @@ $(document).ready(function(){
 
         <div style="text-align: center"><img class="img-girl-and-pc" src="./img/girl_and_pc.jpg" alt="Tired girl in fron of PC">
         </div>
-        <br>
 
 
-        <p>EyesGuard will remind you about necessity to have a break during a long work on computer. This program places an icon into the system tray and does not disturb your work. It allows to adjust the time between breaks (work time), breaks duration (break time) and has some more functions: sound effects, turning your monitor off during the break.Try to use this program and then EyesGuard will guard your vision!
+
+        <p><br><br>
+
+          Назначение программы EyesGuard - напомнить Вам о необходимости сделать перерыв во время длительной работы на компьютере. При запуске программа сворачивается в трей и не мешает работе. Она позволяет задать время между перерывами, длительность перерывов и имеет несколько дополнительных функций: звуковое оповещение и выключение монитора на время перерыва для экономии электроэнергии.
+
+    Попробуйте воспользоваться программой, и тогда Ваше зрение будет под надежной защитой EyesGuard, а Вы будете спокойны за свое здоровье.
         </p>
      </td>
     </tr>
@@ -106,19 +114,25 @@ $(document).ready(function(){
 <!--страница THE IDEA  -------------------------------------------->
 <div id = "anchor-idea-page"  style = "position: relative; top: 80px; ">
 </div>
-<div style="background: #C4D2E9; position: relative; top: 180px; height: 650px;  " >
+<div style="background: #C4D2E9; position: relative; top: 180px; height: 700px;  " >
   <br>  <br>
-  <p class="idea-header">The idea</p>
-  <br>  <br>
+  <p class="idea-header">Идея создания программы</p>
+  <br>
 
 
 
   <table cellpadding="20" style="width: 86%; left: 5%; height=100%; align: center; position: relative; top: -130px; ">
     <tr>
       <td style="width: 50%; cellpadding: 10;">
-        <p class="idea-text">The reason for writing the program was the fact that I had to spend a lot of time in front the monitor (CRT, not LCD!) when I was a student. I had to do many laboratory works, essays, course projects, etc. However, understanding the need for this, I remembered that it was harmful to my health: my eyes grew tired and red, I used to work on the PC for several hours almost without any breaks . But, nevertheless, it was extremely difficult to turn away from the screen. The result is red eyes, blurred vision, bad mood and vision degradation. But it was very useful to take a break. Thinking about the problem, despite the screen, you often helps to find right solutions and sometimes much more faster.
+        <br>    <br>
+        <p class="idea-text">Поводом к написанию программы послужило то, что мне как студенту приходится много времени проводить за компьютером, выполняя лабораторные работы, рефераты, курсовые проекты и др. Однако, понимая необходимость этого, я помнил о том, что это вредно для моего здоровья: глаза уставали, я просиживал за ПК практически без движения по несколько часов подряд. Но, тем не менее, оторваться от монитора было крайне сложно. Результат - красные глаза, ухудшение зрения, плохое настроение. А ведь сделать перерыв очень полезно. Думая о проблеме, не смотря на экран, часто находишь верные решения и иногда гораздо быстрее.
+
+
         <br><br>
-        So this way appeared an idea to write a program that would remind meabout  the need to take a break. (The search for such a program in the Internet did not bring the expected results: either the program turned out to be paid, or it did not suit me in the functionality or ist interface).
+        Так появилась мысль написать программу , которая будет напоминать о необходимости сделать перерыв. (Поиск такой программы в интернете не принес ожидаемых результатов: либо программа оказывалась платной, либо она меня не устраивала как по функциональности, так и по своему интерфейсу). В результате появилась первая версия программы EyesGuard.
+        <br><br>
+        Надеюсь, что и для Вас эта программа бедет полезной. Все свои пожелания, отзывы и предложения можно отправить по почте автору: eyesguard@yandex.ru
+        Также Вы можете присоединиться к проекту.
         </p>
 
 
@@ -126,14 +140,14 @@ $(document).ready(function(){
 
       </td>
       <td  class="recom-text" style="width: 50%; cellpadding: 20">
-
+<br>    <br>
 
         <div style="text-align: center"><img class="student-and-pc" src="./img/student_and_pc.jpg" alt="Healthy eyes">
         </div>
 
      </td>
     </tr>
-    <br>    <br>
+
   </table>
 </div>
 
@@ -144,17 +158,17 @@ $(document).ready(function(){
 <!-- Вторая страница О программе -------------------------------------------->
 <div id = "anchor-about-page"  style = "position: relative; top: 100px; id = "anchor-about-page"">
 </div>
-<div  style="background: #41597D; position: relative; top: 180px; height: 750px;" >
+<div  style="background: #41597D; position: relative; top: 180px; height: 1100px;" >
   <br>
-  <p class="about-header1">About EyesGuard</p>
-  <p class="about-header2">EyesGuard helps you to keep vision in order</p>
-  <br><br><br><br>
+  <p class="about-header1">О программе EyesGuard</p>
+  <p class="about-header2">EyesGuard поможет сохранить зрение в порядке</p>
+  <br><br>
 
 
   <table cellpadding="20" style="width: 86%; left: 0%; height=100%; align: center; position: relative; top: -100px ">
     <tr>
 
-      <td  style="width: 50%; cellpadding: 20">
+      <td  style="width: 30%;">
 
         <div style="width:50%">
 
@@ -162,30 +176,42 @@ $(document).ready(function(){
             <img class="img-about" src="./img/screenshots/screenshot_3.png" alt="Screenshot3"></a>
 
           <a href="./img/screenshots/screenshot_1.png" target="_blank">
-            <img class="img-about" style="position:absolute; top: 280px; left: 250px; height:100px " src="./img/screenshots/screenshot_1.png" alt="Screenshot1"></a>
+            <img class="img-about" style="position:absolute; top: 500px; left: 150px; height:80px " src="./img/screenshots/screenshot_1.png" alt="Screenshot1"></a>
 
           <a href="./img/screenshots/screenshot_2.png" target="_blank">
-            <img class="img-about" style="position:absolute; top: 70px; left: 230px; height:100px " src="./img/screenshots/screenshot_2.png" alt="Screenshot2"></a>
+            <img class="img-about" style="position:absolute; top: 220px; left: 130px; height:100px " src="./img/screenshots/screenshot_2.png" alt="Screenshot2"></a>
 
           <a href="./img/screenshots/screenshot_4.png" target="_blank">
-            <img class="img-about" style="position:absolute; top: 190px; left: 70px; height:120px; width:200px " src="./img/screenshots/screenshot_4.png" alt="Screenshot4"></a>
+            <img class="img-about" style="position:absolute; top: 350px; left: 30px; height:120px; width:200px " src="./img/screenshots/screenshot_4.png" alt="Screenshot4"></a>
 
           <a href="./img/screenshots/screenshot_5.png" target="_blank">
-            <img class="img-about" style="position:absolute; top: 360px; left: 40px; height:100px; width:200px " src="./img/screenshots/screenshot_5.png" alt="Screenshot5"></a>
+            <img class="img-about" style="position:absolute; top: 610px; left: 40px; height:100px; width:200px " src="./img/screenshots/screenshot_5.png" alt="Screenshot5"></a>
 
 
         </div>
      </td>
-     <td class="about-text" style="width: 50%; cellpadding: 20;">
-       <p>This program helps you to organize your work on a computer properly. It reminds about necessity to have a break during long work and informs about the start and the end of the break.
-       After starting EyesGuard places an icon with an eye into the system tray near system clock. If the eye is blue the program works, if it is orange the program does not work (and so your eyes can become orange too! ;) ).
+     <td class="about-text" style="width: 60%;">
+       <p>Данная программа поможет Вам правильно организовать свою работу на компьютере. Она напомнит о необходимости сделать перерыв и сообщит о начале и конце перерыва. <br><br>
+    После запуска программа сворачивается в системный трей. При этом рядом с часами появится иконка в виде глаза. Если глаз голубого цвета, то программа работает, если глаз красный - программа не работает (и сущетвует опасность, что и Ваши глаза могут стать красными ;) ).
       </p>
-      <p>  Main menu of EyesGuard opens by clicking right button of mouse on the EG`s icon in system tray. All settings are made at the window "Settings", which can be opened this way: Main menu -> Settings or by clicking left button on the icon.
+      <p>  Основное меню программы вызывается нажатием правой кнопки мыши на иконке EyesGuard в трее.
+      Все установки производятся в окне "Настройки", которое можно вызвать либо выбором соотвествующего пункта меню, либо просто щелчком левой кнопки мыши на иконке в трее.
       </p>
-      <p>EyesGuard does not demand an installation and does not insert any records into the register of your operational system.
+      <p>Время между перерывами должно быть в интервале от 5 до 120 минут, длительность перерыва - от 1 до 30 минут. Вы можете изменять настройки по своему усмотрению, но сначала следует осзнакомиться с рекомендациями окулиста. Все настройки программа хранит в файле set.dat в той же директории, где находится exe-файл. Если этого файла нет (такое может быть например при первом запуске программы), то программа установит настройки по умолчанию. При первом нажатии кнопки "Применить" этот файл будет создан. Также доступны дополнительные функции: выключение монитора на время перерыва для экономии электроэнергии и звуковое оповещение в течение 10 секунд до перерыва. В тех случаях, когда EyesGuard мешает, его можно выключить. Для этого выберите соответствующий пункт меню или через окно "Настройки".
+      <br><br>
+      Системные требования: ОС Windows 98, Me, 2000, XP, Vista, 7 (также не должно быть проблем с Windows 8 и 10)
+<br><br>
+    EyesGuard не требует установки. Во время работы программа не вносит никаких записей в реестр операционной системы.
+
+    Для того, чтобы программа автоматически запускалась при загрузке операционной системы, надо создать ярлык для файла EyesGuard.exe и поместить в директорию "Автозагрузка" главного меню:
+    <br>
+    "C:\Documents and Settings\All Users\Главное меню\Программы\Автозагрузка" - для Windows XP
+    или <br>
+    C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup - для Windows 7).
+<br><br>
+    Программа EyesGuard распространяется по лиценции GNU GPL. Поэтому также доступен ее исходный код.
       </p>
-       <p>Read more about EyesGuard
-       </p>
+
 
 
      </td>
@@ -201,7 +227,7 @@ $(document).ready(function(){
 </div>
 <div style="background: #A0B4D2; position: relative; top: 140px; height: 650px;  " >
   <br>  <br>
-  <p class="recom-header1">Oculist's recommendations</p>
+  <p class="recom-header1">Рекомендации офтальмолога</p>
   <br>  <br>   <br> <br><br> <br>
 
 
@@ -211,11 +237,15 @@ $(document).ready(function(){
 
       <td  class="recom-text" style="width: 50%; cellpadding: 20">
 
-        <p>The time of continuous work on a computer should not exceed 45 minutes. Optimal working time is 30 minutes or less. For children that time should not exceed 15 minutes. Break duration should be from 5 to 15 minutes, depending on the working time. However you can change this settings as you want.
+        <p>Рекомендации офтальмолога по организации работы на компьютере следующие. Непрерывное время работы не должно превышать 45 минут, лучше если оно будет 30 минут или менее. Для детей не более 15 мин. Продолжительность перерыва от 5 до 15 мин в зависимости от длительности непрерывной работы.  Однако Вы можете изменять настройки по своему усмотрению.
+
+
+
+
         </p>
-        <p > During the break it is recommended to do some exercises for eye's relaxation.
+        <p > Во время перерыва желательно сделать несколько упражнений для расслабления глазных мышц и восстановления кровообращения.
         </p>
-        <p > And the main thing: never forget about your health!!!
+        <p > И, главное, никогда не забывайте о своем здоровье!!!
         </p>
 
 
@@ -241,26 +271,26 @@ $(document).ready(function(){
 </div>
 <div  style="background: #F2F2F2; position: relative; top: 140px; height: 600px " >
   <br>  <br>
-  <p class="download-header1">Download EyesGuard</p>
+  <p class="download-header1">Скачать программу EyesGuard</p>
   <br>
   <div class="download-text" style="position: relative; left: 8%; width:70%; height:100%; word-wrap: break-word">
-  <p>EyesGuard is distributed under the GNU General Public License. The official publication of the license GNU GPL you can find here:
+  <p>Программа EyesGuard распространяется по лицензии GNU General Public License.  Официальную публикацию лицензии GNU GPL Вы можете найти по адресу:
     <a style="color: #000000" href="http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a>
   </p>
-  <p >Last version of EyesGuard you can download from
-    <a style="color: #000000" href="https://github.com/ExplorerOL/EyesGuard/releases/download/v1.20/EyesGuard.exe">here</a>. <br>
-      Source code and previous versions are also <a style="color: #000000" href="https://github.com/ExplorerOL/EyesGuard/releases">available at GitHub</a>.
+  <p >Последняя версия программы доступна
+    <a style="color: #000000" href="https://github.com/ExplorerOL/EyesGuard/releases/download/v1.20/EyesGuard.exe">здесь</a>. <br>
+      Исходный код и предыдущие версии также
+      <a style="color: #000000" href="https://github.com/ExplorerOL/EyesGuard/releases">доступны на GitHub</a>.
   </p>
 
-  <p>EyesGuard was written using the IDE Borland C++ Builder 6.
+  <p>Программа EyesGuard написана в среде Borland C++ Builder6 с использованием VCL.
   </p>
 
-  <p>There were used some icons for noncommercial usage from sites www.aha-soft.com and www.deleket.com. Thanks to their authors!
+  <p>В программе были использованы пиктограммы, взятые для некоммерческого использованя с сайтов www.aha-soft.com и www.deleket.com. Спасибо их создателям!
   </p>
 
-  <p>For Linux users: if you want ro run EyesGuard under Linux you should use
-    <a style="color: #000000" href="http://winehq.org">WINE</a>. After wine is installed run this command: <br>
-  $wine "[path_to_file]\EyesGuard.exe"
+  <p>Для пользователей операционной системы Linux: для запуска EyesGuard в Linux можно использовать программу <a style="color: #000000" href="http://winehq.org">WINE</a>. Для этого нужно установить WINE и выполнить команду:    $wine "[путь_к_программе]\EyesGuard.exe"
+
   </p>
  </div>
 </div>
@@ -268,13 +298,13 @@ $(document).ready(function(){
 <!--Пятая страница Контакты  -------------------------------------------->
 <div id = "anchor-contacts-page" style="position: relative; top: 80px; height: 300px " >
   <br>  <br>
-  <p class="contacts-header1">Contacts</p>
+  <p class="contacts-header1">Контакты</p>
 
-<div class="contacts-text" style="position: relative; left: 25%; width:70%">
+<div class="contacts-text" style="position: relative; left: 15%; width:70%">
 
-    <p>Your opinions, wishes and observations you may send by e-mail:
+    <p>Если у Вас есть пожелания или замечания, Вы можете связаться с автором по электронной почте:
        <a style="color: #FFFFFF" href="mailto:eyesguard@yandex.ru">eyesguard@yandex.ru</a>
-      <br> Also you can join to EyesGuard project!
+      <br> Также Вы можете присоединиться к проекту!
   </p>
 
 </div>
@@ -289,16 +319,13 @@ $(document).ready(function(){
 <footer class="footer-text">
   <br>
   <br>
-  <br>
+
   © 2018 Dmitry Vorobjev
 
   <br>
   <br>
   <img src="http://dd.c3.bf.a1.top.mail.ru/counter?id=2047352;t=55" border="0" height="31" width="88" alt="Рейтинг@Mail.ru">
 
-<!-- <div style="width: 80px; height: 30px; position:relative; right: 5%;">
-  <script style="width: 80px; height: 30px; position:relative; right: 5%;" src="//catcut.net/adv/16992"></script>
-</div> -->
 
 
 </footer>

@@ -3,8 +3,8 @@
     position:relative;
     top: 50px;
     left: 0px;
-    width: 350px;
-    height: 200px;
+    width: 280px;
+    height: 150px;
     border-radius: 10px;
     -webkit-filter: opacity(80%);
     box-shadow: 0.8em 0.8em 10px #0F293C;
@@ -12,9 +12,9 @@
 
 .img-girl-and-pc{
     position:relative;
-    top: 0px;
-    width: 350px;
-    height: 200px;
+    top: 50px;
+    width: 280px;
+    height: 150px;
     border-radius: 10px;
     -webkit-filter: opacity(80%);
     box-shadow: 0.8em 0.8em 10px #0F293C;
@@ -34,7 +34,7 @@
 /* Стили рисунков для страницы ABOUT */
 .img-about{
     position:absolute;
-    top: -20px;
+    top: 0px;
     width: 150px;
     height: 150px;
     border-radius: 10px;
@@ -53,5 +53,3 @@
     -webkit-filter: opacity(100%);
     box-shadow: 0.8em 0.8em 10px #0F293C;
 }
-/* Стили рисунков для страницы DOWNLOAD */
-/* Стили рисунков для страницы CONTACTS */

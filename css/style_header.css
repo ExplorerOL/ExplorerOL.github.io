@@ -1,5 +1,4 @@
 /* Стили для заголовка */
-
 .style-header{
   background-color: #41597D;
   top: 0;
@@ -10,26 +9,20 @@
   z-index: 1;
    max-width: 1500px;
    min-width: 600px;
-
 }
 
-
 /*Стиль для меню-------------------------------------*/
-
    .main-menu-items, .main-menu-items li {
      margin: 0;
      padding: 0;
-
    }
    .main-menu-items {
      max-width: 650px;
      min-width: 650px;
-
      margin: 0 auto;
      background: #41597D;
      position: relative;
      top: 15px;
-
    }
    .main-menu-items li {
      display: inline-block;
@@ -44,26 +37,23 @@
      -o-transition: background-color 0.5s 0.1s ease;
      -webkit-transition: background-color 0.5s 0.1s ease;
    }
+
    .main-menu-items a:hover {
      background: #6285BC; */
      color: #FFFFFF;
-     /* color: #6285BC;  */
    }
-/* Баннер ----------------------------------------*/
 
+/* Баннер ----------------------------------------*/
     .style-banner{
       background: #000000;
       position: relative;
       top: 0px;
       width:82%;
-
       left: 8%;
-      /* align-content: center; */
-      /* margin:0 0% 0 0% */
     }
 
     .font-main-menu {
-     font:normal normal normal 14px/1.4em futura-en,sans-serif;
+     font:normal normal normal 14px/1.4em futura;
      color: #FFFFFF;
      display: inline;
     }
@@ -74,7 +64,6 @@
       position: absolute;
       top: -50px;
       left: 70px;
-
     }
 
     h2 {
@@ -86,16 +75,14 @@
       white-space: nowrap;
       }
 
-
     .img-lang {
       position: relative;
       top: 15px;
       left: 90%;
       width: 30px;
       height: 20px;
+      -webkit-filter: opacity(80%);
     }
-
-
 
    .img-logo {
      position:absolute;
@@ -112,5 +99,5 @@
      left: 0px;
      width: 100%;
      height: 5px;
-       max-width: 1500px;
+    max-width: 1500px;
    }
