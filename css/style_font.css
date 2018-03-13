@@ -7,7 +7,7 @@
 
 /* Стили текста для страницы HOME */
 .home-text{
-  font: normal normal normal 16px/1.4em futura, sans-serif ;
+  font: normal normal normal 18px/1.4em futura, sans-serif ;
   color: #FFFFFF;
   text-align: justify;
 }
@@ -21,7 +21,7 @@ top: -10px;
 }
 
 .idea-text{
-  font: normal normal normal 16px/1.4em futura, sans-serif ;
+  font: normal normal normal 18px/1.4em futura, sans-serif ;
   color:#000000;
   text-align: justify;
 }
@@ -43,7 +43,7 @@ top: -10px;
 }
 
 .about-text{
-  font: normal normal normal 16px/1.4em futura, sans-serif ;
+  font: normal normal normal 18px/1.4em futura, sans-serif ;
   color:#CFDFF2;
   text-align: justify;
 }
@@ -58,7 +58,7 @@ top: 20px;
 }
 
 .recom-text{
-font: normal normal normal 16px/1.4em futura, sans-serif ;
+font: normal normal normal 18px/1.4em futura, sans-serif ;
 color:#000000;
 text-align: justify;
 }
@@ -73,7 +73,7 @@ top: 20px;
 }
 
 .download-text{
-font: normal normal normal 16px/1.4em futura, sans-serif ;
+font: normal normal normal 18px/1.4em futura, sans-serif ;
 color:#000000;
 text-align: justify;
 }
@@ -88,7 +88,7 @@ top: 20px;
 }
 
 .contacts-text{
-font: normal normal normal 16px/1.4em futura, sans-serif ;
+font: normal normal normal 18px/1.4em futura, sans-serif ;
 color:#FFFFFF;
 text-align: justify;
 }

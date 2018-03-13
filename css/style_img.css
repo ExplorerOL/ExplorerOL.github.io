@@ -3,8 +3,8 @@
     position:relative;
     top: 50px;
     left: 0px;
-    width: 280px;
-    height: 150px;
+    width: 350px;
+    height: 210px;
     border-radius: 10px;
     -webkit-filter: opacity(80%);
     box-shadow: 0.8em 0.8em 10px #0F293C;
@@ -13,8 +13,8 @@
 .img-girl-and-pc{
     position:relative;
     top: 50px;
-    width: 280px;
-    height: 150px;
+    width: 350px;
+    height: 210px;
     border-radius: 10px;
     -webkit-filter: opacity(80%);
     box-shadow: 0.8em 0.8em 10px #0F293C;
@@ -32,9 +32,10 @@
 }
 
 /* Стили рисунков для страницы ABOUT */
-.img-about{
+.img-screenshot1{
     position:absolute;
-    top: 0px;
+    top: 70px;
+    left: -40px;
     width: 150px;
     height: 150px;
     border-radius: 10px;
@@ -42,13 +43,58 @@
     box-shadow: 0.8em 0.8em 10px #0F293C;
 }
 
+.img-screenshot2{
+    position:absolute;
+    top: 550px;
+    left: 30px;
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    -webkit-filter: opacity(100%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+.img-screenshot3{
+    position:absolute;
+    top: 270px;
+    left: 30px;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    -webkit-filter: opacity(100%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+.img-screenshot4{
+    position:absolute;
+    top: 400px;
+    left: -40px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    -webkit-filter: opacity(100%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+.img-screenshot5{
+    position:absolute;
+    top: 660px;
+    left: -30px;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    -webkit-filter: opacity(100%);
+    box-shadow: 0.8em 0.8em 10px #0F293C;
+}
+
+
 /* Стили рисунков для страницы RECOMMENDATIONS */
 .img-healthy-eyes{
     position:relative;
     top: 0px;
 
-    width: 80%;
-    height: 30%;
+    width: 350px;
+    height: 220px;
     border-radius: 20px;
     -webkit-filter: opacity(100%);
     box-shadow: 0.8em 0.8em 10px #0F293C;
