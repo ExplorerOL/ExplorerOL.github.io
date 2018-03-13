@@ -5,6 +5,11 @@
 	src: url(../font/open-sans-bold.ttf);
 }
 
+@font-face {
+	font-family: futura;
+	src: url(../font/futura-ru.otf);
+}
+
 /* Стили текста для страницы HOME */
 .home-text{
   font: normal normal normal 18px/1.4em futura, sans-serif ;

@@ -19,12 +19,10 @@
    .main-menu-items {
      max-width: 750px;
      min-width: 650px;
-     /* margin: 0 auto; */
+     margin: 0 auto;
      background: #41597D;
      position: relative;
      top: 15px;
-     margin-left: auto;
-     margin-right: auto;
    }
    .main-menu-items li {
      display: inline-block;
@@ -53,7 +51,7 @@
       width:82%;
       /* left: 13%; */
       margin-left: auto;
-      margin-right: auto;
+      margin-right: auto
 
     }
 
@@ -92,7 +90,7 @@
    .img-logo {
      position:absolute;
      top: 0px;
-     /* left: 0px; */
+     left: 0px;
      width: 68px;
      height: 68px;
    }
