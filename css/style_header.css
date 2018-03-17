@@ -4,11 +4,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 140px;
+  height: 130px;
   position: fixed;
   z-index: 1;
    max-width: 1920px;
    min-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /*Стиль для меню-------------------------------------*/
@@ -18,7 +20,8 @@
    }
    .main-menu-items {
      max-width: 750px;
-     min-width: 650px;
+     min-width: 750px;
+     max-height: 20px;
      margin: 0 auto;
      background: #41597D;
      position: relative;
@@ -27,6 +30,7 @@
    .main-menu-items li {
      display: inline-block;
      text-align: center;
+
    }
    .main-menu-items a {
      display: block;
@@ -51,7 +55,7 @@
       width:82%;
       /* left: 13%; */
       margin-left: auto;
-      margin-right: auto
+      margin-right: auto;
 
     }
 
