@@ -1,2 +1,2 @@
 User-Agent: *
-Host: Host: eyesguard.ru
+Host: eyesguard.ru
