@@ -1,2 +1,3 @@
 User-Agent: *
 Host: eyesguard.ru
+Sitemap: eyesguard.ru/sitemap.xml
